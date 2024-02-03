@@ -31,7 +31,22 @@ class ViewController: UIViewController {
         guard let json = try? JSONSerialization.jsonObject(with: data) else {
             return
         }
-        print(json)
+        
+        guard let array = json as? [Any] else {
+            return
+        }
+        
+        for user in array {
+            guard let userDictionary = user as? [String: Any] else { return }
+            
+            guard let name = userDictionary["name"],
+                  let id = userDictionary["id"] else {
+                return
+            }
+            
+            guard let companyDictionary = userDictionary["company"] as? [String: String] else { return }
+            
+            print("\(name)  (\(id))\n\(companyDictionary["name"] ?? "") company\n")
+        }
     }
 }
-
