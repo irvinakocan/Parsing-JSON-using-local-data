@@ -13,6 +13,7 @@
 		24E7B3F92B6EBCBB00D7EF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E7B3F72B6EBCBB00D7EF4A /* Main.storyboard */; };
 		24E7B3FB2B6EBCBF00D7EF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E7B3FA2B6EBCBF00D7EF4A /* Assets.xcassets */; };
 		24E7B3FE2B6EBCBF00D7EF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E7B3FC2B6EBCBF00D7EF4A /* LaunchScreen.storyboard */; };
+		24E7B4062B6EBD8800D7EF4A /* usersApi in Resources */ = {isa = PBXBuildFile; fileRef = 24E7B4052B6EBD8800D7EF4A /* usersApi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		24E7B3FA2B6EBCBF00D7EF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24E7B3FD2B6EBCBF00D7EF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24E7B3FF2B6EBCBF00D7EF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E7B4052B6EBD8800D7EF4A /* usersApi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usersApi; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				24E7B3F12B6EBCBB00D7EF4A /* AppDelegate.swift */,
 				24E7B3F32B6EBCBB00D7EF4A /* SceneDelegate.swift */,
 				24E7B3F52B6EBCBB00D7EF4A /* ViewController.swift */,
+				24E7B4052B6EBD8800D7EF4A /* usersApi */,
 				24E7B3F72B6EBCBB00D7EF4A /* Main.storyboard */,
 				24E7B3FA2B6EBCBF00D7EF4A /* Assets.xcassets */,
 				24E7B3FC2B6EBCBF00D7EF4A /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E7B4062B6EBD8800D7EF4A /* usersApi in Resources */,
 				24E7B3FE2B6EBCBF00D7EF4A /* LaunchScreen.storyboard in Resources */,
 				24E7B3FB2B6EBCBF00D7EF4A /* Assets.xcassets in Resources */,
 				24E7B3F92B6EBCBB00D7EF4A /* Main.storyboard in Resources */,
